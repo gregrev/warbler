@@ -1,6 +1,6 @@
 # warbler (Twitter clone)
 
-In this exercise I practiced reading and understanding an existing application(simple twitter web app), as well as fixing bugs in it, writing tests for it, and extending it with new features.
+In this exercise I practiced reading and understanding an existing application(simple twitter web app), as well as fixed bugs in it, wrote tests for it, and extended it with new features.
 
 ## Goals Completed
 
