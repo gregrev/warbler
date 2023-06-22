@@ -234,7 +234,8 @@ def add_like(message_id):
 
     liked_message = Message.query.get_or_404(message_id)
     if liked_message.user_id == g.user.id:
-        return abort(403)
+        flash("You can't like your own tweet.", "danger")
+        return redirect('/')
 
     user_likes = g.user.likes
 
